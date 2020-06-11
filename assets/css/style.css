@@ -75,37 +75,36 @@ header nav ul li a {
 }
 
 /*GRID*/
-.work-grid-wrapper {
-    display: flex;
-    height: 200px;
-    width: 700px;
-    justify-content: space-around;
-}
+
 .work-grid-container {
-    background: thistle;
     display: grid;
-    grid-template-columns: repeat (5 ,1fr);
-    grid-template-rows: repeat (5 ,1fr);
-    font-size: 1.2rem;
-    grid-gap: 20px;
-    grid-auto-flow: dense;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 150px 150px;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    justify-content: center;
+    
+    
 }
 .work-grid-item {
-    background: purple;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    border-radius: 5px;
-    font-size: 15px;   
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+}
+.work-grid-item img {
+    max-height: 150px;
+    max-width: 200px;
 }
 .item5 {
-    grid-column: 2 / span 3;
-    grid-row: 2 / span 4;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+
 }
-.grid-item:nth-child(3n) {
-    grid-column: span 3;
-    grid-row: span 2;
-  }
+.iem5 img {
+    max-height:400px;
+    max-width: 500px;
+}
+
   /*END GRID*/
 
 
