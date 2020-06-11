@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*HEADER*/
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(134, 224, 194, 0.7)
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: rgba(134, 224, 194, 0.7)
+}
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+header nav ul li{
+    display: inline;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+ .hero {
+     background-image: url("../images/02-hero-bg.jpg");
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     flex-wrap: wrap;
+     height: 300px;
+     width: 100%;
+ }
+.hero-cta 
+{
+    display: block; 
+    color: pink;
+}
