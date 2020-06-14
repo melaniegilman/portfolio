@@ -46,6 +46,7 @@ header nav ul li a:hover {
      height: 400px;
      width: 100%;
      opacity: .35;
+     
  }
 .hero-cta {
     color: rgba(92, 53, 82, 0.7);
@@ -66,7 +67,7 @@ header nav ul li a:hover {
    color: rgba(156, 67, 134, 0.7);
    display: flex;
    justify-content: center;
-   margin-bottom: 175px;       
+   margin-bottom: 150px;       
 }
 
 .photo img {
@@ -174,4 +175,45 @@ border-radius: 15px;
 }
 .float-right {
     float: right;
+}
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+      padding: 0;
+      justify-content: center;
+      position: relative;
+    }
+    header h1 {
+      width: 100%;
+      padding: 5px;
+      text-align: center;
+      font-size: 10vw;
+    }
+    header nav ul {
+      justify-content: center;
+      width: 100%;
+    }
+    header nav ul li a {
+        font-size: 20px;
+    }
+    header nav a: {
+    background-size: 100% 100%;
+    color: var(--primary);
+   }
+   .contact address a {
+       font-size: 1.2rem;
+       font-weight: lighter;
+       width: 80%;
+   }
+/* Media Query for Tablets and Smaller */
+@media screen and (max-width: 768px) {
+    .work-grid-container {
+        grid-auto-rows: minmax(200px, 1fr)
+    }
+    .work-grid-item, grid-item:first-child {
+        grid-column: 1 / -1;
+    }
+  
+.introduction {
+    width: 100%;
 }
