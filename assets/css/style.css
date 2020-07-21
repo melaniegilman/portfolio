@@ -189,8 +189,11 @@ width:410px;
 }
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 980px) {
+    .hero{
+        width:100%;
+    }
     header {
-      padding: 0;
+          padding: 0;
       justify-content: center;
       position: relative;
     }
