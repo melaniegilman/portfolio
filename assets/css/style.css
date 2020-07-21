@@ -42,7 +42,8 @@ header nav ul li a:hover {
 /*HERO*/
  .hero {
      background-image: url("../images/hero-01.jpg");
-     background-size: cover;
+     background-size: center;
+     background-repeat: repeat;
      background-position: center;
      display: flex;
      justify-content: center;
@@ -111,25 +112,34 @@ header nav ul li a:hover {
     text-align: center;
     font-size: 30px;
 }
+
 .item1 img {
    height: 150px;
-   width: 200px;
-   
+   width: 200px;   
+}
+.item1 img:hover {
+    opacity: 0.4;
 }
 .item2 img {
     height: 150px;
     width: 200px;
-
+}
+.item2 img:hover {
+    opacity: 0.4;
 }
 .item3 img {
     height: 150px;
     width: 200px;
-
+}
+.item3 img:hover {
+    opacity: 0.4;
 }
 .item4 img {
     height: 150px;
     width: 200px;
-
+}
+.item4 img:hover {
+    opacity: 0.4;
 }
 .item5 {
     grid-column: 1 / span 2;
@@ -138,7 +148,9 @@ header nav ul li a:hover {
 .item5 img {
 height:310px;
 width:410px;
-
+}
+.item5 img:hover {
+    opacity: 0.4;
 }
 .work-grid-container h3 {
     color: rgba(156, 67, 134, 0.7);
@@ -146,6 +158,7 @@ width:410px;
     font-size: 15px;
     display: flex;
     text-align: center;
+    
 }
   /*END GRID*/
 .titles {
