@@ -17,6 +17,7 @@ header h1 {
 h1 {
     color: rgba(92, 53, 82, 0.7); 
 }
+
 header a {
     text-decoration: none;
     color: rgba(92, 53, 82, 0.7);    
@@ -48,6 +49,7 @@ header nav ul li a:hover {
      height: 400px;
      width: 100%;
      opacity: .35;     
+     margin-bottom: 50px;
  }
 .hero-cta {
     color: rgba(92, 53, 82, 0.7);
@@ -74,8 +76,8 @@ header nav ul li a:hover {
 .photo img {
     height: 300px;
     width: 240px;
-    border-radius: 15px;
     float: right;
+    opacity: .7;
 }
 .introduction p {
     text-align: left;
@@ -101,7 +103,8 @@ header nav ul li a:hover {
     grid-template-rows: 150px 150px;
     grid-gap: 10px;
     justify-content: center;    
-    padding-right: 40px;    
+    padding-right: 40px;   
+    margin-left: 80px; 
 }
 .work-grid-item {    
     text-align: center;
@@ -110,22 +113,22 @@ header nav ul li a:hover {
 .item1 img {
    height: 150px;
    width: 200px;
-   border-radius: 15px;
+   
 }
 .item2 img {
     height: 150px;
     width: 200px;
-    border-radius: 15px;
+
 }
 .item3 img {
     height: 150px;
     width: 200px;
-    border-radius: 15px;
+
 }
 .item4 img {
     height: 150px;
     width: 200px;
-    border-radius: 15px;
+
 }
 .item5 {
     grid-column: 1 / span 2;
@@ -134,7 +137,7 @@ header nav ul li a:hover {
 .item5 img {
 height:310px;
 width:410px;
-border-radius: 15px;
+
 }
 .work-grid-container h3 {
     color: rgba(156, 67, 134, 0.7);
@@ -152,16 +155,21 @@ border-radius: 15px;
     flex: 0 0 20%;
     padding-right: 70px;
     width: 20%;
-    margin: 20px;
+    margin-left: 10px;
+   
 }
 /*CONTACT*/
 #contact {
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
     text-align: center;
-    display: flex;
-    margin-bottom: 25px;
+    display: inline-flex;
+   
 }
-.contact-me p {
+.address:hover {
+    color: var(--darker);
+    
+}
+.address {
     color: rgba(92, 53, 82, 0.7);
     display: flex;
     float: right;
@@ -170,6 +178,7 @@ border-radius: 15px;
     font-weight: lighter;
     padding: 10px;
     text-align: center;
+   
 }
 /*RULES*/
 .float-left {
