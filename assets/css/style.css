@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background-color: rgba(229, 229, 236, 0.911);
+ background-color: rgb(216, 213, 213);
 }
 /*HEADER*/
 header h1 {
@@ -68,7 +68,7 @@ header nav ul li a:hover {
    height: 300px;
    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
    font-size: 18px;
-   color: rgba(156, 67, 134, 0.7);
+   color: rgba(92, 53, 82, 0.7);
    display: flex;
    justify-content: center;
    margin-bottom: 150px;       
@@ -78,7 +78,7 @@ header nav ul li a:hover {
     height: 300px;
     width: 240px;
     float: right;
-    opacity: .7;
+    opacity: .9;
 }
 .introduction p {
     text-align: left;
@@ -163,13 +163,14 @@ width:410px;
   /*END GRID*/
 .titles {
     color: rgba(92, 53, 82, 0.7);
-    font-size: 40px;
+    font-size: 30px;
     text-align: left;
     font-weight: lighter;
     flex: 0 0 20%;
     padding-right: 70px;
     width: 20%;
     margin-left: 10px;
+    text-decoration: underline;
    
 }
 /*CONTACT*/
